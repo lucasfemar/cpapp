@@ -10,12 +10,13 @@
     "express": "^4"
   },
   "devDependencies": {
-    "@sap/ux-specification": "^1.108.11",
+    "@sap/ux-specification": "^1.108.12",
     "sqlite3": "^5.1.6"
   },
   "scripts": {
     "start": "cds-serve",
-    "watch-risks": "cds watch --open risks/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-risks": "cds watch --open risks/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-mitigations": "cds watch --open mitigations/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "sapux": [
     "app/risks"
