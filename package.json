@@ -6,17 +6,18 @@
     "license": "UNLICENSED",
     "private": true,
     "dependencies": {
+        "@cap-js-community/odata-v2-adapter": "^1.11.6",
         "@sap/cds": "^7",
-        "express": "^4",
         "@sap/cds-hana": "^2",
         "@sap/xssec": "^3",
+        "express": "^4",
         "passport": "^0"
     },
     "devDependencies": {
         "@sap/cds-dk": "^7",
         "@sap/ux-specification": "^1.108.12",
-        "sqlite3": "^5.1.6",
-        "rimraf": "^3.0.2"
+        "rimraf": "^3.0.2",
+        "sqlite3": "^5.1.6"
     },
     "engines": {
         "node": "^16"
@@ -38,6 +39,9 @@
                 "db": "hana",
                 "auth": "xsuaa"
             }
+        },
+        "cov2ap" : {
+            "plugin": true
         }
     }
 }
